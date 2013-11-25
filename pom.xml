@@ -1,11 +1,23 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.netease.fronted</groupId>
+	<groupId>com.github.fantasyni</groupId>
 	<artifactId>node-redis-failover-java</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>node-redis-failover-java</name>
+	<url>https://github.com/fantasyni/node-redis-failover-java</url>
 	<description>node-redis-failover-java</description>
+
+	<scm>
+		<connection>scm:git:git://github.com/fantasyni/node-redis-failover-java.git</connection>
+		<developerConnection>scm:git:git@github.com:fantasyni/node-redis-failover-java.git</developerConnection>
+		<url>https://github.com/fantasyni/node-redis-failover-java</url>
+	</scm>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
 	<dependencies>
 		<dependency>
 			<groupId>redis.clients</groupId>
@@ -47,4 +59,5 @@
 			<version>2.4</version>
 		</dependency>
 	</dependencies>
+
 </project>
